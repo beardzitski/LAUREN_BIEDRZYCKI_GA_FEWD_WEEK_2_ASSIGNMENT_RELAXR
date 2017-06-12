@@ -1,6 +1,6 @@
 /*
 Project Name: Blank Template
-Client: Your Client
+Client: Relaxr
 Author: Your Name
 Developer @GA in NYC
 */
@@ -45,13 +45,12 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
+
 body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
 }
 
 
@@ -63,22 +62,109 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
-
+  height: 90vh;
 }
-
+/******************************************
+/* HEADER
+/******************************************/
+html, header {
+  height: 100%;
+}
 header {
-
+   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+   background-size: cover;
 }
 
+.header-logo {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.piece-of-mind-tagline {
+  padding-top: 20vh;
+}
+
+.button {
+  display: block;
+  vertical-align: center
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10vh auto;
+  border-radius: 5px;
+}
+
+.button.get-it-now {
+  background-color: #f9e42e;
+  color: #033048;
+  font-size: 14px;
+}
+
+.center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/******************************************
+/* BENEFITS
+/******************************************/
+.benefits {
+
+}
 footer {
 
+}
+
+h1.footer-logo {
+  color: #f9e42e
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+/******************************************
+/* FONTS
+/*******************************************/
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #121212;
+}
+
+p, li {
+  font-size: 13px;
+  font-weight: 300;
+  color: #606161;
+}
 
 
 
+/******************************************
+/* BUTTONS
+/*******************************************/
+
+
+.button.sign-up {
+  color: white;
+  font-size: 12px;
+}
