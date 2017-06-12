@@ -64,9 +64,19 @@ body {
   margin: auto;
   height: 90vh;
 }
+
+.center {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+blockquote
 /******************************************
-/* HEADER
-/******************************************/
+/* ADDITIONAL STYLES
+/*******************************************/
+
 html, header {
   height: 100%;
 }
@@ -76,59 +86,70 @@ header {
 }
 
 .header-logo {
-  padding-left: 20px;
+  padding-left: 50px;
   padding-top: 20px;
 }
 .piece-of-mind-tagline {
   padding-top: 20vh;
 }
 
-.button {
-  display: block;
-  vertical-align: center
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  padding: 10px 40px;
-  text-align: center;
-  text-decoration: none;
-  margin: 10vh auto;
-  border-radius: 5px;
-}
-
-.button.get-it-now {
-  background-color: #f9e42e;
-  color: #033048;
-  font-size: 14px;
-}
-
-.center {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/******************************************
-/* BENEFITS
-/******************************************/
 .benefits {
-
+  background-color: #f0efef;
+  padding: 50px;
 }
-footer {
 
+.testimonial {
+  padding: 50px;
+  background-image: url(../images/testimonial_bg.jpg);
+}
+
+aside {
+  padding: 10px;
+  background-color: #f9e42e;
+}
+
+footer {
+  background-color: #121212;
+  padding: 50px;
 }
 
 h1.footer-logo {
   color: #f9e42e
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+ul.footer-social-links {
+  list-style: none;
+  padding: 0px;
+}
 
+li.social-links {
+  display: inline-block;
+  padding: 15px;
+}
+
+.social-links img {
+  max-width: 40px;
+  max-height: 30px;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+.benefits h3, .benefits p {
+  max-width: 50%;
+}
 /******************************************
 /* FONTS
 /*******************************************/
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
+}
 
 h1 {
   font-family: 'Open Sans', sans-serif;
@@ -146,25 +167,65 @@ h2 {
 }
 
 h3 {
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 600;
-  color: #121212;
+  color: #033048;
 }
 
 p, li {
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 300;
   color: #606161;
 }
 
+blockquote {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
 
+.amanda-intuit-attribution {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+h6.center {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  color: #606161;
+}
 
 /******************************************
 /* BUTTONS
 /*******************************************/
+.button {
+  display: block;
+  vertical-align: center;
+  padding: 8px 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
 
+.button.get-it-now {
+  background-color: #f9e42e;
+  color: #033048;
+  font-size: 14px;
+  margin: 6vh auto;
+}
 
 .button.sign-up {
+  background-color: #033048;
   color: white;
   font-size: 12px;
 }
